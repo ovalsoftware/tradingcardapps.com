@@ -6,7 +6,7 @@ gems:
 # Site settings
 title: "Mediator"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   Testing
 
 email: a-mail@mail.mail
 #blog logo

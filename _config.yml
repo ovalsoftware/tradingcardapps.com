@@ -6,11 +6,10 @@ gems:
 # Site settings
 title: "Trading Card App Ltd"
 description: > # this means to ignore newlines until "email:"
-   Welcome!
 
 email: admin@tradingcardapps.com
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/app_icon.jpeg"
 float_logo: true # true, false (default)
 
 # blog cover
@@ -18,7 +17,7 @@ cover: "/assets/images/background_image.jpeg"
 
 name: 'Trading Card App Ltd'
 author: 'Trading Card App Ltd'
-author_image: "/assets/images/author.jpg"
+author_image: "/assets/images/app_icon.jpg"
 
 paginate:	5
 

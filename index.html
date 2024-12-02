@@ -14,6 +14,41 @@ layout: default
     {% endif %}
     <h1 class="blog-title">{{ site.title }}</h1>
     <h2 class="blog-description">{{ site.description }}</h2>
+    <div>
+        <h1>Track, Organize & Enhance Your Pokémon Collection!</h1>
+        <p>
+            We're building the ultimate tool to help you manage your Pokémon trading card collection, whether you're a seasoned collector or just starting your journey. This app is designed to simplify card tracking, set completion, and collection management while offering unique features to enhance your experience.
+        </p>
+
+        <h2>Features We're Working On</h2>
+        <ul>
+            <li><strong>View All English & Japanese Sets:</strong> Access a complete library of Pokémon card sets from both English and Japanese releases.</li>
+            <li><strong>Track Card Variants:</strong> Manage different card variants with ease, ensuring you stay on top of rare and alternate versions.</li>
+            <li><strong>Check Card Prices & Values:</strong> Stay informed about market trends with real-time card values for graded and ungraded cards.</li>
+            <li><strong>Daily Artist Spotlight:</strong> Celebrate the creativity behind the cards by discovering new and familiar Pokémon illustrators.</li>
+            <li><strong>Search by Name or Artist:</strong> Quickly find specific cards using our powerful search functionality.</li>
+            <li><strong>Create & Share Custom Lists:</strong> Build personalized lists of your favorite cards and share them with friends or fellow collectors.</li>
+            <li><strong>Set Completion Stats:</strong> See at a glance how much of each Pokémon set you’ve completed with detailed, easy-to-read statistics.</li>
+            <li><strong>Track Collection Growth:</strong> Monitor your collection’s progress over time and celebrate milestones.</li>
+            <li><strong>Export Data:</strong> Export your collection details as a CSV for easy record-keeping or sharing.</li>
+        </ul>
+
+        <h2>Why We're Excited</h2>
+        <ul>
+            <li><strong>User-Friendly Design:</strong> We're building an intuitive interface that will make managing even the largest collections a breeze.</li>
+            <li><strong>Dark Mode:</strong> Perfect for late-night card sorting or browsing.</li>
+        </ul>
+
+        <h2>Help Us Build It!</h2>
+        <p>
+            We're in the process of creating this app and would love your input! If you have suggestions or feature ideas, reach out to us at 
+            <a href="mailto:admin@tradingcardapps.com">admin@tradingcardapps.com</a>. Your feedback is invaluable in shaping a tool that serves the Pokémon community.
+        </p>
+        <p>
+            Join us on this journey to create something truly special for Pokémon card collectors everywhere!
+        </p>
+
+    </div>
     <div class="custom-links">
       {% for social in site.social %}
         {% if social.url %}
@@ -24,6 +59,7 @@ layout: default
         {% endif %}
       {% endfor %}
       <a href={{ "/about/" | prepend: site.baseurl }}>About</a>
+       <a href={{ "/privacy/" | prepend: site.baseurl }}>Privacy</a>
     </div>
 </header>
 
